@@ -141,7 +141,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capistrano (~> 2.0)
+  capistrano (~> 2.15.5)
   coffee-rails (~> 4.0.1)
   jquery-rails (~> 3.0.4)
   less-rails (~> 2.4.2)
@@ -151,5 +151,5 @@ DEPENDENCIES
   rspec-rails (~> 2.14.1)
   sass-rails (~> 4.0.1)
   therubyracer (~> 0.12.0)
-  twitter-bootstrap-rails
+  twitter-bootstrap-rails (~> 2.2.8)
   uglifier (~> 2.4.0)
