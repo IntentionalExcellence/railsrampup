@@ -44,6 +44,6 @@ namespace :deploy do
   end
 
   task :compile_assets do
-    run "#{try_sudo} cd #{deploy_to}/current && rake assets:precompile"
+    run "#{try_sudo} cd #{deploy_to}/current && RAILS_ENV=production rake assets:precompile"
   end
 end
